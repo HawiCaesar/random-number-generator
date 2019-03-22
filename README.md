@@ -3,6 +3,7 @@
 ## Install
 
 - Clone this repository
+- navigate to directory random-number-generator , cd random-number-generator
 - run `npm install`
 
 ### Generate phone numbers
@@ -16,3 +17,7 @@
 - run `node sort.js`. Ensure you have the phoneNumbers.json file.
 - follow the prompt.
 - a file will be generated based on the choice in the prompt. The file will be in the root directory
+
+### To run tests
+
+- npm test
