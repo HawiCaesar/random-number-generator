@@ -1,5 +1,9 @@
 # Random Phone Number Generator
 
+[![CircleCI](https://circleci.com/gh/HawiCaesar/random-number-generator.svg?style=svg)](https://circleci.com/gh/HawiCaesar/random-number-generator)
+
+[![Coverage Status](https://coveralls.io/repos/github/HawiCaesar/random-number-generator/badge.svg?branch=master)](https://coveralls.io/github/HawiCaesar/random-number-generator?branch=master)
+
 ## Install
 
 - Clone this repository
