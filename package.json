@@ -1,0 +1,25 @@
+{
+  "name": "random-number-generator",
+  "version": "1.0.0",
+  "description": "random phone number generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest *.test.js -i --detectOpenHandles --silent"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HawiCaesar/random-number-generator.git"
+  },
+  "author": "HawiCaesar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HawiCaesar/random-number-generator/issues"
+  },
+  "homepage": "https://github.com/HawiCaesar/random-number-generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "jest": "^24.5.0"
+  }
+}
