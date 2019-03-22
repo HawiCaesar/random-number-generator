@@ -4,7 +4,8 @@
   "description": "random phone number generator",
   "main": "index.js",
   "scripts": {
-    "test": "jest *.test.js -i --detectOpenHandles --silent"
+    "test": "jest *.test.js -i --detectOpenHandles --silent",
+    "coverage": "jest *.test.js -i --detectOpenHandles --silent --coverage && cat coverage/lcov.info | coveralls"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "lodash": "^4.17.11"
   },
   "devDependencies": {
+    "coveralls": "^3.0.3",
     "jest": "^24.5.0"
   }
 }
