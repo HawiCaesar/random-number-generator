@@ -20,10 +20,10 @@ const generatePhoneNumber = () => {
 const savePhoneNumbersToFile = phoneNumberObject => {
   fileStore.create("phoneNumbers", phoneNumberObject, (error, data) => {
     if (!error) {
-      //console.log("Phone Number created. Check out phoneNumbers.json file");
+      console.log("Phone Number created. Check out phoneNumbers.json file");
       return "saved";
     } else {
-      //console.log(error);
+      console.log(error);
       return `Error when saving file, ${error}`;
     }
   });
