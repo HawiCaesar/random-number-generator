@@ -22,9 +22,6 @@ const savePhoneNumbersToFile = phoneNumberObject => {
     if (!error) {
       console.log("Phone Number created. Check out phoneNumbers.json file");
       return "saved";
-    } else {
-      console.log(error);
-      return `Error when saving file, ${error}`;
     }
   });
 };

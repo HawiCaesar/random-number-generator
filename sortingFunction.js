@@ -29,9 +29,6 @@ const sortPhoneNumbers = (sortAlgorithm, userInput) => {
             `Checkout ${fileName}.json for sorted list of phone numbers`
           );
           return "saved";
-        } else {
-          console.log("Error when saving sorted list file");
-          return "Error when saving file";
         }
       });
     } else {
