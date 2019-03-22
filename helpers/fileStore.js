@@ -25,7 +25,7 @@ fileStore.create = (file, data, callback) => {
           }
         });
       } else {
-        callback("Could create new file, phone numbers already exists");
+        callback("Could create new file, that file already exists");
       }
     }
   );
