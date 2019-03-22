@@ -21,3 +21,4 @@
 ### To run tests
 
 - npm test
+  NOTE: ensure phoneNumbers.json and sortingPhoneNumbers[sort value].json are not create and in the root directory
